@@ -32,29 +32,32 @@ let book_1_ = {
     title : 'Останнє бажання',
     pageCount : 150,
     ganre : 'fantasy',
-    author : {
-        name : 'А́нджей Сапко́вський',
-        age : 74
+    author : [{
+        name: 'А́нджей Сапко́вський',
+        age: 74
     }
+    ]
 
 }
 let book_2_ = {
     title : 'Learning JavaScript',
     pageCount : 135,
     ganre : 'scientific',
-    author : {
+    author : [{
         name : 'Ітан Браун',
         age : 50
     }
+    ]
 }
 let book_3_ = {
     title : 'Фактор Черчилля',
     pageCount : 170,
     ganre : 'historical',
-    author : {
+    author : [{
         name : 'Борис Джонсон',
         age : 58
     }
+    ]
 }
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password.
 //   Вивести в консоль пароль кожного користувача
